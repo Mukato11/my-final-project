@@ -516,6 +516,11 @@ nav li:last-child a:after{ background: red; }
 
 
 /*  responsive media  */
+@media (max-width: 1180px) {
+  .ul-element {
+    display: block;
+  }
+}
 
 @media (max-width: 1024px) {
   .wraper {
@@ -589,13 +594,7 @@ nav li:last-child a:after{ background: red; }
   }
  }
 
- @media (max-width: 900px) {
-  .ul-element {
-    display: block;
-  }
-}
-
-@media (max-width: 765px) {
+ @media (max-width: 765px) {
     .left-small-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
