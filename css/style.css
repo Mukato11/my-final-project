@@ -21,10 +21,11 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 24px 0;
-  background-color: gainsboro;
+  background-image: url("../../images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 
@@ -130,13 +131,6 @@
 /* end-animation*/
 
 /* start hover */
-
-body{
-  margin: 0px;
-  padding: 0px;
- 
-  font-family: 'Lato', sans-serif;
-}
 
 nav{
   float: none; 
