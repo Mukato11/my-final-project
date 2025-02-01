@@ -641,7 +641,7 @@ nav li:last-child a:after{ background: red; }
 }
 
 @media (max-width: 580px) {
-  .navigation,
+  
   .action-element {
     display: none;
   }
@@ -720,7 +720,7 @@ nav li:last-child a:after{ background: red; }
 }
    }
 
- @media (max-width: 340px) {
+ @media (max-width: 320px) {
   .footer-container {
     -ms-grid-columns: auto;
     grid-template-columns: auto;  
@@ -733,4 +733,8 @@ nav li:last-child a:after{ background: red; }
 .Logo {
   width: 30%;
 }
+   .navigation {
+  display: none;
+}
+   
  }
