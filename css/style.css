@@ -21,7 +21,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 24px 0;
-  background-image: url("../../images/4.jpg");
+  background-color: gainsboro;
+  
     background-repeat: no-repeat;
     background-size: cover;
 }
